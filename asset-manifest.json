@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Abdel84_Cal/static/css/main.6a36c24a.css",
+    "main.js": "/Abdel84_Cal/static/js/main.cacca033.js",
+    "index.html": "/Abdel84_Cal/index.html",
+    "main.6a36c24a.css.map": "/Abdel84_Cal/static/css/main.6a36c24a.css.map",
+    "main.cacca033.js.map": "/Abdel84_Cal/static/js/main.cacca033.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a36c24a.css",
+    "static/js/main.cacca033.js"
+  ]
+}
