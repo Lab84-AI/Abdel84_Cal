@@ -1,0 +1,23 @@
+'use client';
+
+import * as React from 'react';
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
+import theme from './index';
+import '@fontsource/inter/variable.css';
+import '@fontsource/noto-sans/latin.css';
+
+type ThemeRegistryProps = {
+  children: React.ReactNode;
+};
+
+export default function ThemeRegistry({ children }: ThemeRegistryProps) {
+  return (
+    <AppRouterCacheProvider>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        {children}
+      </ThemeProvider>
+    </AppRouterCacheProvider>
+  );
+}
