@@ -10,7 +10,7 @@ body {
 
 body {
   margin: 0;
-  font-family: 'Inter', 'Noto Sans', sans-serif;
+  font-family: var(--font-inter), var(--font-noto-sans), sans-serif;
   background-color: #0f141a;
   color: #f5f7fa;
 }

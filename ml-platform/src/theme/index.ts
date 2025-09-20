@@ -29,7 +29,7 @@ const theme = createTheme({
     }
   },
   typography: {
-    fontFamily: ['Inter', 'Noto Sans', 'sans-serif'].join(','),
+    fontFamily: ['var(--font-inter)', 'var(--font-noto-sans)', 'sans-serif'].join(','),
     h1: { fontWeight: 700 },
     h2: { fontWeight: 700 },
     h3: { fontWeight: 600 },
