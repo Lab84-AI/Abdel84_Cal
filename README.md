@@ -1,3 +1,26 @@
+# Aurora AI ML Platform Frontend
+
+A new Next.js + Material UI frontend lives in the `ml-platform` directory. It implements the Aurora AI control center layout along with the model performance and comparison workspace.
+
+## Getting Started (ML Platform)
+
+1. Install dependencies
+
+   ```bash
+   cd ml-platform
+   npm install
+   ```
+
+2. Start the development server
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open `http://localhost:3000` in your browser to explore the dashboard.
+
+---
+
 # Calcium Imaging Analysis Suite
 
 A web application for analyzing calcium imaging data from microscopy videos. This application allows users to:
